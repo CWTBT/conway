@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.paint.Color;
 import javafx.scene.layout.GridPane;
+import javafx.event.EventHandler;
 import javafx.stage.Stage;
 
 public class App extends Application {
