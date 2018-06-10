@@ -15,7 +15,11 @@ public class Grid {
 		return cellMap[0].length;
 	}
 	
-	private void switchCell(int x, int y) {
+	public boolean getCellVal(int x, int y) {
+		return cellMap[x][y];
+	}
+	
+	public void switchCell(int x, int y) {
 		try {
 			cellMap[x][y] = !cellMap[x][y];
 		}
